@@ -1,0 +1,35 @@
+{
+  "require": {
+    "showf68/showf": "@dev",
+    "stripe/stripe-php": "*",
+    "fpdf/fpdf": "*",
+    "mpdf/mpdf": "*",
+    "twilio/sdk": "*",
+    "telnyx/telnyx-php": "*",
+    "aws/aws-sdk-php": "*",
+    "symfony/yaml": "*",
+    "phpoffice/phpword": "*",
+    "mailgun/mailgun-php": "*",
+    "symfony/http-client": "*",
+    "symfony/mailer": "*",
+    "symfony/google-mailer": "*",
+    "league/oauth2-client": "*",
+    "league/oauth2-google": "*",
+    "nyholm/psr7": "*",
+    "phpmailer/phpmailer": "*",
+    "setasign/fpdf": "^1.8",
+    "setasign/fpdi": "^2.0",
+    "setasign/fpdi_pdf-parser": "^2.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://www.setasign.com/downloads/"
+    }
+  ],
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}
