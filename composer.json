@@ -1,7 +1,7 @@
 {
   "require": {
     "showf68/showf": "@dev",
-    "stripe/stripe-php": "*",
+    "stripe/stripe-php": "^13.18.0", 
     "fpdf/fpdf": "*",
     "mpdf/mpdf": "*",
     "twilio/sdk": "*",
